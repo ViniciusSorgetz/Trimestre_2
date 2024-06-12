@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d36406-9328-421a-a381-376eeb282f3a" name="Changes" comment="Teste">
-      <change afterPath="$PROJECT_DIR$/src/Projeto_12_06/Contas/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_12_06/Contas/Main.java" afterDir="false" />
+    <list default="true" id="41d36406-9328-421a-a381-376eeb282f3a" name="Changes" comment="Contas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trimestre_2_Programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Trimestre_2_Programming.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projeto_12_06/Exemplo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projeto_12_06/Contas/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projeto_12_06/Contas/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projeto_12_06/Contas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projeto_12_06/Contas/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2hmI4SDovdan2IO8ggHFDthGygQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,16 +37,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Trimestre_2_Programming",
     "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/Trimestre_2_Programming/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,12 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1718192730190</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Contas">
+      <option name="closed" value="true" />
+      <created>1718195024002</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718195024002</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arquivos criados" />
     <MESSAGE value="Teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste" />
+    <MESSAGE value="Contas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contas" />
   </component>
 </project>
