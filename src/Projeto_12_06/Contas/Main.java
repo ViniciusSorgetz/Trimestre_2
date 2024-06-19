@@ -10,6 +10,7 @@ public class Main {
 
     static Scanner ler = new Scanner(System.in);
     static Conta contas[] = new Conta[20];
+    static Conta conta;
     static int contasQuntidade = 0;
 
     public static void cadastro(){
@@ -28,7 +29,7 @@ public class Main {
 
     public static void listar(){
         for(int i=0; i<contasQuntidade; i++){
-            mostrarConta(contas[i]);
+            mostrarConta(contas[i], false);
         }
     }
 
@@ -42,23 +43,49 @@ public class Main {
     }
 
     public static void depositar(){
-
+        int posicao = acessar();
+        if(posicao == -1){
+            System.out.println("Dados inválidos.");
+            return;
+        }
+        System.out.print("Digite o valor a ser depositado: ");
+        float valor = ler.nextFloat();
+        Conta conta = contas[posicao];
+        conta.depositar(valor);
+        System.out.println("Valor de " + String.format("%.2f", valor) + " depositado.");
+        contas[posicao] = conta;
     }
 
     public  static void sacar(){
-
+        int posicao = acessar();
+        if(posicao == -1){
+            System.out.println("Dados inválidos.");
+            return;
+        }
+        System.out.print("Digite o valor a ser sacado: ");
+        float valor = ler.nextFloat();
+        Conta conta = contas[posicao];
+        if(conta.sacar(valor)){
+            System.out.println("Valor de " + String.format("%.2f", valor) + " sacado.");
+            contas[posicao] = conta;
+            return;
+        }
+        else{
+            System.out.println("Valor inválido para o saque");
+        }
     }
 
-    public static void acessar(){
+    public static int acessar(){
         System.out.print("Identificador: ");
         String identificador = ler.next();
         System.out.print("Senha: ");
         String senha = ler.next();
-        Conta conta;
-        for(int i=0; i<contasQuntidade; i++) {
-            if (contas[i].identificador.equals(identificador)) ;
-            conta = contas[i];
+        int posicao = -1;
+        for(int i=0; i<contasQuntidade;i++){
+            if(contas[i].senha.equals(senha) && contas[i].identificador.equals(identificador))
+                posicao = i;
         }
+        return posicao;
     }
 
     public static void main(String[] args){
