@@ -10,7 +10,6 @@ public class Main {
 
     static Scanner ler = new Scanner(System.in);
     static Conta contas[] = new Conta[20];
-    static Conta conta;
     static int contasQuntidade = 0;
 
     public static void cadastro(){
