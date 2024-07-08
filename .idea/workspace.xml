@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="41d36406-9328-421a-a381-376eeb282f3a" name="Changes" comment="Contas Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/ContaPoupanca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720014950835</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Contas Update">
+      <option name="closed" value="true" />
+      <created>1720444176595</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720444176596</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
