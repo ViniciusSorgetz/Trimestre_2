@@ -7,6 +7,8 @@ public class ContaPoupanca extends Conta{
         this.saldo = deposito;
     }
 
+    ContaPoupanca(){}
+
     public boolean sacar(float valor){
         if(valor <= saldo){
             saldo -= valor;

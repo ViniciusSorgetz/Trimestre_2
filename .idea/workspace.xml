@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41d36406-9328-421a-a381-376eeb282f3a" name="Changes" comment="Contas Update">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Classes/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Classes/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_03_07/Heranca/Engenheiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_03_07/Heranca/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_03_07/Heranca/Motorista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_03_07/Heranca/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_19_06/Acesso/Nome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_19_06/Contas/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_19_06/Contas/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_19_06/Contas/Operacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_19_06/Contas/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projeto_03_07/Conta_Corrente_Poupanca/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,26 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Banco.executor": "Run",
-    "Application.Calculadora.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Principal.executor": "Run",
-    "Application.Teste.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/Trimestre_2_Programming",
-    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/Trimestre_2_Programming/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Banco.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculadora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Trimestre_2_Programming&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/Trimestre_2_Programming/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -134,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718797853663</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Contas Update">
+      <option name="closed" value="true" />
+      <created>1720014886546</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720014886546</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Contas Update">
+      <option name="closed" value="true" />
+      <created>1720014950835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720014950835</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

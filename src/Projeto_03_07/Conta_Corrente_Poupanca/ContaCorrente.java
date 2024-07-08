@@ -9,6 +9,8 @@ public class ContaCorrente extends Conta{
         this.limite = limite;
     }
 
+    ContaCorrente(){}
+
     public boolean sacar(float valor){
         if(valor <= saldo && valor <= limite){
             saldo -= valor;

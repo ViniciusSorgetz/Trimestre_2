@@ -15,6 +15,8 @@ public class Conta {
         this.identificador = geraIdentificador();
     }
 
+    Conta(){}
+
     String geraIdentificador(){
         Random aleatorio = new Random();
         String identificador = "";
@@ -24,6 +26,8 @@ public class Conta {
         identificador += aleatorio.nextInt(1000, 2000);
         return identificador;
     }
+
+    public String getTitular(){return titular;}
 
     public String getIdentificador(){
         return identificador;
