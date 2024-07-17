@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d36406-9328-421a-a381-376eeb282f3a" name="Changes" comment="Contas Update">
-      <change afterPath="$PROJECT_DIR$/src/Projeto_10_07/Escrever_Arquivo/Lendo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_10_07/Escrever_Arquivo/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_10_07/Escrever_Arquivo/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_10_07/Override/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_10_07/Override/Operacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_10_07/Override/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_10_07/Override/principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_10_07/TryCatch/Exemplo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_10_07/TryCatch/Exemplo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_10_07/TryCatch/Exercicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projeto_10_07/TryCatch/Exercicio2.java" afterDir="false" />
+    <list default="true" id="41d36406-9328-421a-a381-376eeb282f3a" name="Changes" comment="Escrevendo e Lendo Arquivos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projeto_10_07/Escrever_Arquivo/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projeto_10_07/Escrever_Arquivo/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +31,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -166,7 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720445526037</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Escrevendo e Lendo Arquivos">
+      <option name="closed" value="true" />
+      <created>1720619618663</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720619618663</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Escrevendo e Lendo Arquivos">
+      <option name="closed" value="true" />
+      <created>1720619630802</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720619630802</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,7 +179,8 @@
     <MESSAGE value="Teste" />
     <MESSAGE value="Contas" />
     <MESSAGE value="Contas Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contas Update" />
+    <MESSAGE value="Escrevendo e Lendo Arquivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Escrevendo e Lendo Arquivos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

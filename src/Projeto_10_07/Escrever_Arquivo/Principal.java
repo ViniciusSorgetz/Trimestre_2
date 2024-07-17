@@ -13,8 +13,7 @@ public class Principal {
         Pessoa p1 = new Pessoa();
         p1.setNome("John");
         p1.setSobrenome("Silveira");
-        File arquivo = new File("C:/Users/User/IdeaProjects/Trimestre_2_Programming" +
-                "/src/Projeto_10_07/Escrever_Arquivo/exemplo.db");
+        File arquivo = new File("./exemplo.db");
         try{
             ObjectOutputStream objEscrita =
                     new ObjectOutputStream(new FileOutputStream(arquivo.getAbsolutePath()));
