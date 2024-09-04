@@ -6,7 +6,7 @@ public class FuncionarioMensalista extends Funcionario implements Pagamento{
         super(nome, horasTrabalhadas, salarioHora);
     }
 
-    @Override
+    @Overrid
     public double calcularSalario() {
         return 0;
     }
