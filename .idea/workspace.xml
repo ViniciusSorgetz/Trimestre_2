@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41d36406-9328-421a-a381-376eeb282f3a" name="Changes" comment="Escrevendo e Lendo Arquivos">
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Exemplo_Abstract/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Exemplo_Abstract/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Exemplo_Abstract/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Exemplo_Abstract/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Exemplo_Abstract/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Exemplo_Abstract/Retangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Exemplo_Abstract/Vetor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Exemplo_Herança_Multipla/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Exemplo_Herança_Multipla/VeiculoPasseio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Exemplo_Herança_Multipla/VeiculoUtilitario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Sistema_Pagamento/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Sistema_Pagamento/FuncionarioComissado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Sistema_Pagamento/FuncionarioHorista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Sistema_Pagamento/FuncionarioMensalista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projeto_04_09/Sistema_Pagamento/Pagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -32,32 +52,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Banco.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calculadora.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exemplo01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exemplo02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercicio.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercicio2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lendo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
-    &quot;Application.principal.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Trimestre_2_Programming&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/Trimestre_2_Programming/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Banco.executor": "Run",
+    "Application.Calculadora.executor": "Run",
+    "Application.Exemplo01.executor": "Run",
+    "Application.Exemplo02.executor": "Run",
+    "Application.Exercicio.executor": "Run",
+    "Application.Exercicio2.executor": "Run",
+    "Application.Lendo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.Principal.executor": "Run",
+    "Application.Teste.executor": "Run",
+    "Application.principal.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Trimestre_2_Programming",
+    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/Trimestre_2_Programming/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Projeto_04_09.Exemplo_Abstract" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -170,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720619630802</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Escrevendo e Lendo Arquivos">
+      <option name="closed" value="true" />
+      <created>1724851557512</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724851557512</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
